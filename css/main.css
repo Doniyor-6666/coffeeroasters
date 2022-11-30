@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+button {
+  width: 217px;
+  height: 56px;
+
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #fefcf7;
+  background: #0e8784;
+  border-radius: 6px;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.haeder-coffe {
+  margin-top: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  column-gap: 32px;
+}
+.header-item {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888f;
+}
+.hero {
+  width: 1280px;
+  height: 600px;
+  margin-top: 44px;
+  background: url("../img/Bitmap.png");
+  padding: 85px 117px;
+}
+.hero-header {
+  width: 493px;
+  height: 145px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+
+  color: #fefcf7;
+}
+.hero-text {
+  width: 445px;
+  height: 78px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #fefcf7;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.collection {
+  width: 1111px;
+  margin-top: 136px;
+  background: url("../img/our-collection.png");
+  background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%);
+  position: relative;
+  top: 50%;
+}
+.collection-list {
+  display: flex;
+  column-gap: 30px;
+  position: relative;
+  bottom: 50%;
+  text-align: center;
+}
+.collection-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #333d4b;
+}
+.collection-text {
+  width: 255px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #333d4b;
+}
