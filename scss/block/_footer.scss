@@ -1,12 +1,17 @@
 .footer {
-  background: #333d4b;
+  background: $DarkGreyBlue;
   margin-top: 200px;
-  &__block {
-    height: 120px;
-    padding: 0 47px;
+  padding: 47px 85px;
+  height: 120px;
+  &__content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    column-gap: 369px;
+  }
+  &__block {
+    display: flex;
+    align-items: center;
+    column-gap: 103px;
   }
   &__list {
     display: flex;
@@ -23,7 +28,7 @@
     letter-spacing: 0.923077px;
     text-transform: uppercase;
 
-    color: #83888f;
+    color: $GreY;
   }
   &__item:hover {
     font-family: "Barlow";
@@ -35,10 +40,11 @@
     letter-spacing: 0.923077px;
     text-transform: uppercase;
 
-    color: #fefcf7;
+    color: $lightCream;
   }
   &__link {
     display: flex;
+    align-items: center;
     column-gap: 24px;
   }
   &__logo:hover {

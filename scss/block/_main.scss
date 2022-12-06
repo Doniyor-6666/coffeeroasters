@@ -9,12 +9,12 @@
   padding: 85px 117px;
 }
 .hero {
-  //   width: 100%;
-  //   height: 600px;
-  //   margin-top: 44px;
-  //   background: url("../img/Bitmap.png");
-  //   background-position: center;
-  //   padding: 85px 117px;
+  // width: 100%;
+  // height: 600px;
+  // margin-top: 44px;
+  // background: url("../img/Bitmap.png");
+  // background-position: center;
+  // padding: 85px 117px;
   &__header {
     width: 493px;
     height: 145px;
@@ -24,7 +24,7 @@
     font-size: 72px;
     line-height: 72px;
 
-    color: #fefcf7;
+    color: $lightCream;
   }
   &__text {
     width: 445px;
@@ -36,7 +36,7 @@
     line-height: 26px;
     margin-bottom: 56px;
 
-    color: #fefcf7;
+    color: $lightCream;
 
     mix-blend-mode: normal;
     opacity: 0.8;
@@ -60,7 +60,7 @@
 
     text-align: center;
 
-    color: #83888f;
+    color: $GreY;
   }
   &__box {
     width: 100%;
@@ -96,7 +96,7 @@
 
     text-align: center;
 
-    color: #333d4b;
+    color: $DarkGreyBlue;
   }
   &__text {
     font-family: "Barlow";
@@ -107,14 +107,14 @@
 
     text-align: center;
 
-    color: #333d4b;
+    color: $DarkGreyBlue;
   }
 }
 .choose {
   position: relative;
   width: 1280px;
   height: 577px;
-  background-color: #333d4b;
+  background-color: $DarkGreyBlue;
   margin-top: 500px;
   padding-top: 100px;
   border-radius: 5px;
@@ -128,7 +128,7 @@
 
     text-align: center;
 
-    color: #fefcf7;
+    color: $lightCream;
   }
   &__text {
     width: 540px;
@@ -140,7 +140,7 @@
     margin: 0 auto;
     text-align: center;
 
-    color: #fefcf7;
+    color: $lightCream;
 
     mix-blend-mode: normal;
     opacity: 0.8;
@@ -159,7 +159,7 @@
   &__item {
     width: 350px;
     height: 382px;
-    background-color: #0e8784;
+    background-color: $DarkSyan;
     padding: 72px 48px 48px;
   }
   &__subtitle {
@@ -170,7 +170,7 @@
     line-height: 32px;
     margin: 56px 0 24px;
 
-    color: #fefcf7;
+    color: $lightCream;
   }
   &__subtext {
     font-family: "Barlow";
@@ -179,7 +179,7 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: #fefcf7;
+    color: $lightCream;
   }
 }
 .work {
@@ -191,9 +191,8 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-    /* identical to box height, or 133% */
 
-    color: #83888f;
+    color: $GreY;
   }
   &__line {
     width: 760px;
@@ -202,15 +201,17 @@
     margin-top: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: #fdd6ba;
+
+    gap: 335px;
+    background: $PaleOrange;
   }
   &__circle {
+    z-index: 100;
     width: 31px;
     height: 31px;
     display: block;
-    background: #fefcf7;
-    border: 2px solid #0e8784;
+    background: $lightCream;
+    border: 2px solid $DarkSyan;
     border-radius: 50%;
   }
   &__list {
@@ -226,7 +227,7 @@
     font-size: 72px;
     line-height: 72px;
 
-    color: #fdd6ba;
+    color: $PaleOrange;
   }
   &__text {
     width: 255px;
@@ -240,7 +241,7 @@
 
     margin: 38px 0 42px;
 
-    color: #333d4b;
+    color: $DarkGreyBlue;
   }
   &__subtext {
     width: 285px;
@@ -251,7 +252,7 @@
     font-size: 16px;
     line-height: 26px;
 
-    color: #333d4b;
+    color: $DarkGreyBlue;
     margin-bottom: 64px;
   }
 }

@@ -1,0 +1,148 @@
+.hero {
+  &--about {
+    width: 100%;
+    height: 450px;
+    margin-top: 44px;
+    background: url("../img/about-us-img.png");
+    background-position: center;
+    padding: 137px 750px 137px 85px;
+  }
+  &__header--about {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: $lightCream;
+  }
+  &__text--about {
+    width: 445px;
+    height: 104px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: $lightCream;
+  }
+}
+.commit {
+  &__item {
+    margin-top: 168px;
+    display: flex;
+    justify-content: center;
+    column-gap: 125px;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 32px;
+  }
+  &__header {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: $DarkGreyBlue;
+  }
+  &__text {
+    width: 540px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: $DarkGreyBlue;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  &__quality {
+    position: relative;
+    height: 474px;
+    display: flex;
+    align-items: center;
+    column-gap: 125px;
+
+    margin-top: 256px;
+    padding: 88px 0 176px 85px;
+    background: $DarkGreyBlue;
+    border-radius: 10px;
+  }
+  &__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 32px;
+
+    color: $lightCream;
+  }
+  &__subtitle {
+    width: 540px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: $lightCream;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  &__img {
+    position: absolute;
+    left: 750px;
+    top: -88px;
+  }
+}
+.country {
+  width: 1045px;
+  &__header {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+    margin-top: 168px;
+
+    color: $GreY;
+  }
+  &__list {
+    margin-top: 72px;
+
+    display: flex;
+    align-items: center;
+    gap: 150px;
+  }
+  &__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 45px 0 24px;
+
+    color: $DarkGreyBlue;
+  }
+
+  &__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: $DarkGreyBlue;
+  }
+}

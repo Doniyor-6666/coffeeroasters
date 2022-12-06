@@ -20,7 +20,7 @@
     letter-spacing: 0.923077px;
     text-transform: uppercase;
 
-    color: #83888f;
+    color: $GreY;
   }
   &__item:hover {
     font-family: "Barlow";
@@ -32,6 +32,6 @@
     letter-spacing: 0.923077px;
     text-transform: uppercase;
 
-    color: #333d4b;
+    color: $DarkGreyBlue;
   }
 }
